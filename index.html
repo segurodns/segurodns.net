@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Seguro DNS</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+
+  <!-- Custom -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-expand-md static-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <a class="navbar-brand" href="#">Seguro DNS</a>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#uncensored">Uncensored DNS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#adsblock">Adblock DNS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#privacy">Privacy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#privacy">Transparency</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Seguro DNS</h1>
+          <p class="lead">A secure, public DNS service hosted in multiple locations</p>
+	      <hr class="my-4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="uncensored">
+    <div class="container">
+      <div class="row-box">
+        <div class="col-sm-8 col-lg-12 mx-auto">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fas fa-lock-open"></i> Uncensored DNS</h4>
+            <p class="card-text text-justify">
+              Uncensored DNS that does not block anything by default.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-globe-americas"></i> New York (US East)</h4>
+                <b>Hostname</b>: us1.segurodns.net <br>
+                <b>DNS over TLS (DoT)</b>:
+                <ul>
+                  <li><b>IPv4</b>: :853</li>
+                  <li><b>IPv6</b>: :853</li>
+                  <li><b>TLS Hostname</b>: </li>
+                </ul>
+                <b>DNS over HTTPS (DoH)</b>:
+                <ul>
+                  <li><b>IPv4</b>: </li>
+                  <li><b>IPv6</b>: </li>
+                  <li><b>URL</b>: </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Uncensored DNS --> 
+
+  <br />
+
+  <section id="adsblock">
+    <div class="container">
+      <div class="row-box">
+        <div class="col-sm-8 col-lg-12 mx-auto">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fas fa-ad"></i> Adblock DNS</h4>
+            <p class="card-text text-justify">
+              DNS that blocks ads, trackers, and other online garbage based on these <a href="https://github.com/notracking/hosts-blocklists">lists</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-globe-americas"></i> Seattle (US West)</h4>
+                <b>Hostname</b>: us1.segurodns.net <br>
+                <b>DNS over TLS (DoT)</b>:
+                <ul>
+                  <li><b>IPv4</b>: 172.83.159.211:854</li>
+                  <li><b>IPv6</b>: [2604:9cc0:1:b::211]:854</li>
+                  <li><b>TLS Hostname</b>: dot.us1.segurodns.net</li>
+                </ul>
+                <b>DNS over HTTPS (DoH)</b>: 
+                <ul>
+                  <li><b>IPv4</b>: 172.83.159.211</li>
+                  <li><b>IPv6</b>: [2604:9cc0:1:b::211]</li>
+                  <li><b>URL</b>: https://doh.us1.segurodns.net/no-ads</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Adblock DNS --> 
+
+  <br />
+
+  <section id="privacy">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fas fa-user-secret"></i> Privacy</h4>
+            <p class="card-text text-justify">
+              No logs are being collected related to DNS traffic (IPs, queries, etc). Traffic volume is monitored to prevent abuse. Services are provided "as is" without warranty.
+            </p>
+            <div class="text-left" style="margin-left: 10px;">
+              <p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6"><i class="fas fa-check"></i> No Logging</div>
+                  <div class="col-md-6"><i class="fas fa-check"></i> Ad Blocker</div>
+                  <div class="col-md-6"><i class="fas fa-check"></i> DNSSEC validation</div>
+                  <div class="col-md-6"><i class="fas fa-check"></i> DNS over HTTPS</div>
+                  <div class="col-md-6"><i class="fas fa-check"></i> DNS over TLS</div>
+                  <div class="col-md-6"><i class="fas fa-check"></i> OpenNIC TLD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fas fa-door-open"></i> Transparency</h4>
+            <p class="card-text text-justify">
+                DNS services are using BIND. Nginx is used for <a href="https://en.wikipedia.org/wiki/DNS_over_HTTPS">DNS over HTTP</a>. <a href="https://www.opennic.org/">OpenNIC</a> is our Tier 1 provider.
+            </p>
+            <p class="card-text text-justify">
+		   Configurations files are available below:
+            </p>
+            <div class="text-left" style="margin-left: 10px;">
+              <p>
+		      <ul>
+                <li>BIND</li>
+                <li>HAProxy</li>
+                <li>Nginx</li>
+		      </ul>
+		      </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Privacy -->
+
+  <div class="footer">
+    <footer>
+      <hr class="my-4">
+      <ul class="list-inline">
+        <li style="float: left"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="img/ccby40.png" alt="Creative Commons BY 4.0 License" title="All content is licensed under a Creative Commons Attribution 4.0 International License"/></a></li>
+        <li style="float: right">
+          <a rel="me" href="mailto:contact@segurodns.net" title="Send me an email" target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li style="float: right">
+          <a rel="me" href="https://github.com/segurodns" title="Github" target="_blank">
+            <i class="fab fa-git-square"></i>
+          </a>
+        </li>
+        <li style="float: right">
+          <a rel="me" href="https://status.example.com" title="Status Page" target="_blank">
+            <i class="fas fa-exclamation-circle"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <!-- footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
